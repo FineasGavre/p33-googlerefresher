@@ -1,7 +1,8 @@
 <script setup lang="ts">
     import HeaderNavbar from "./components/header/navbar/HeaderNavbar.vue"
     import Searchbar from "./components/search/Searchbar.vue";
-import SimpleButton from "./components/buttons/SimpleButton.vue";
+    import SimpleButton from "./components/buttons/SimpleButton.vue";
+    import Footer from "./components/footer/Footer.vue";
 
 </script>
 
@@ -22,22 +23,20 @@ import SimpleButton from "./components/buttons/SimpleButton.vue";
                 <a href="#">Deutsch</a>
             </div>
         </div>
+        <Footer></Footer>
     </div>
 </template>
 
-<style>
-    #app {
-        font-family: Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
-
+<style scoped>
     .wrapper {
+        min-height: 100vh;
+
         display: flex;
         flex-direction: column;
     }
 
     .main-content {
+        flex-grow: 1;
         margin-top: 8rem;
 
         display: flex;

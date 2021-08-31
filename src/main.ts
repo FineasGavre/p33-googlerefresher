@@ -1,4 +1,5 @@
 import 'normalize.css'
+import './assets/stylesheets/main.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTh, faMicrophone, faSearch } from '@fortawesome/free-solid-svg-icons'
