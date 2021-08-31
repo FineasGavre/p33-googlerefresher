@@ -1,3 +1,7 @@
+:root {
+    --navbar-size: 4rem;
+}
+
 #app {
     font-family: Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
