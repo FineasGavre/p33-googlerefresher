@@ -11,9 +11,9 @@
     </a>
 </template>
 
-<style>
+<style scoped>
     .header-item {
-        color: rgba(0, 0, 0, 0.71);
+        color: rgba(0, 0, 0, 0.87);
         line-height: 24px;
         vertical-align: middle;
         font-size: 13px;
