@@ -6,14 +6,18 @@
     <div class="footer-wrapper">
         <div class="country-section">Romania</div>
         <div class="footer-button-group">
-            <a href="#">About</a>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search works</a>
+            <div class="group">
+                <a href="#">About</a>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>
             <div class="spacer"></div>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
+            <div class="group">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
         </div>
     </div>
 </template>
@@ -48,6 +52,11 @@
     font-size: 14px;
 }
 
+.group {
+    display: inline-flex;
+    gap: 1rem;
+}
+
 .footer-button-group a {
     color: rgba(0, 0, 0, 0.54);
     text-decoration: none;
@@ -63,5 +72,25 @@
 
 .spacer {
     flex-grow: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-button-group {
+        justify-content: space-around;
+    }
+
+    .spacer {
+        flex-grow: 0;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer-button-group {
+        flex-direction: column;
+    }
+
+    .group {
+        justify-content: center;
+    }
 }
 </style>
