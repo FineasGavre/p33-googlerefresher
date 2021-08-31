@@ -18,12 +18,6 @@
         flex-direction: column;
         align-items: center;
 
-        overflow: hidden;
-        overflow-wrap: break-word;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        text-align: center;
-
         gap: 0.5rem;
 
         padding: 1rem;
@@ -33,6 +27,22 @@
         border-radius: 6px;
         background-color: #a0b8fa3f;
 
+        
+    }
+
+    .application-grid-menu-item span {
+        display: block;
+        
+        overflow: hidden;
+        overflow-wrap: break-word;
+        white-space: nowrap;
+        text-align: center;
+        
+        width: 3rem;
+        text-overflow: ellipsis;
+    }
+
+    .application-grid-menu-item:hover span {
         overflow: visible;
         white-space: normal;
     }
