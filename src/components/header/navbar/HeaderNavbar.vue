@@ -16,7 +16,7 @@ import ApplicationGridMenu from "../../menus/ApplicationGridMenu.vue";
                 <template #trigger>
                     <IconHeaderItem href="#" icon="th"></IconHeaderItem>
                 </template>
-                <template #default>
+                <template #content>
                     <ApplicationGridMenu></ApplicationGridMenu>
                 </template>
             </Dropdown>

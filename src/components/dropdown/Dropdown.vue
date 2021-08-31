@@ -15,7 +15,7 @@
             <slot name="trigger"></slot>
         </div>
         <div class="dropdown-content" v-if="isOpen">
-            <slot></slot>
+            <slot name="content"></slot>
         </div>
 </template>
 
