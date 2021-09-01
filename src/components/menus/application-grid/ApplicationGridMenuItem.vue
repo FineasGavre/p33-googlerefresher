@@ -1,8 +1,8 @@
 <script setup lang="ts">
-    const props = defineProps({
-        title: String,
-        icon: String
-    })
+    const props = defineProps<{
+        title: string,
+        icon: string
+    }>()
 </script>
 
 <template>
@@ -26,8 +26,6 @@
     .application-grid-menu-item:hover {
         border-radius: 6px;
         background-color: #a0b8fa3f;
-
-        
     }
 
     .application-grid-menu-item span {
