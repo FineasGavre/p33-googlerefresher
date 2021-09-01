@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import TextHeaderItem from "./header-items/TextHeaderItem.vue"
-import IconHeaderItem from "./header-items/IconHeaderItem.vue";
-import ImageHeaderItem from "./header-items/ImageHeaderItem.vue";
-import Dropdown from "../../dropdown/Dropdown.vue";
-import ApplicationGridMenu from "../../menus/ApplicationGridMenu.vue";
-
+    import TextHeaderItem from "./header-items/TextHeaderItem.vue"
+    import IconHeaderItem from "./header-items/IconHeaderItem.vue";
+    import ImageHeaderItem from "./header-items/ImageHeaderItem.vue";
+    import Dropdown from "../../dropdown/Dropdown.vue";
+    import ApplicationGridMenu from "../../menus/application-grid/ApplicationGridMenu.vue";
+    import UserProfileMenu from "../../menus/user-profile/UserProfileMenu.vue";
 </script>
 
 <template>
@@ -13,8 +13,8 @@ import ApplicationGridMenu from "../../menus/ApplicationGridMenu.vue";
         <TextHeaderItem href="#" title="Images"></TextHeaderItem>
         <div class="icon-section">
             <Dropdown>
-                <template #trigger>
-                    <IconHeaderItem href="#" icon="th"></IconHeaderItem>
+                <template #trigger="triggerProps">
+                    <IconHeaderItem href="#" icon="th" :active="triggerProps.isOpen"></IconHeaderItem>
                 </template>
                 <template #content>
                     <ApplicationGridMenu></ApplicationGridMenu>
