@@ -7,3 +7,30 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 0.5rem;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    border: none;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: none;
+    border: none;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5f6368;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
