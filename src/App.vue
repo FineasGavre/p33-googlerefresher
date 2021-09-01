@@ -18,7 +18,7 @@
             <div class="language-cta">
                 <span>Google offered in:</span>
                 <a href="#">Română</a>
-                <a href="#">magyar</a>
+                <a href="#">Magyar</a>
                 <a href="#">Deutsch</a>
             </div>
         </div>

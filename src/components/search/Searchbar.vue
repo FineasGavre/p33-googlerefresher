@@ -24,6 +24,10 @@
         gap: 0.5rem;
     }
 
+    .search-bar:hover {
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+    }
+
     .search-bar:focus-within {
         box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
     }
