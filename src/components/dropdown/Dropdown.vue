@@ -4,9 +4,7 @@
     const isOpen = ref(false)
 
     const toggleOpen = () => {
-        console.log('toggled open')
         isOpen.value = !isOpen.value
-        console.log(isOpen.value)
     }
 </script>
 
