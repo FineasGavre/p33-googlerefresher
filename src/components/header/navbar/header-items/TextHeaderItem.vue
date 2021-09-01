@@ -21,6 +21,6 @@
     }
 
     .header-item:hover {
-        text-decoration: underline !important;
+        text-decoration: underline;
     }
 </style>
