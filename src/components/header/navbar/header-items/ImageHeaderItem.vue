@@ -1,8 +1,8 @@
 <script setup lang="ts">
-    const props = defineProps({
-        imageSrc: String,
-        href: String
-    })
+    const props = defineProps<{
+        imageSrc: string,
+        href: string
+    }>()
 </script>
 
 <template>
