@@ -1,77 +1,34 @@
 <script setup lang="ts">
     import ApplicationGridMenuItem from '../application-grid/ApplicationGridMenuItem.vue'
+
+    type MenuItem = {
+        title: string
+        icon: string
+    }
+
+    const data: MenuItem[] = [
+        {
+            title: 'Hello world',
+            icon: 'th',
+        },
+    ]
+
+    for (let i = 0; i < 13; i++) {
+        data.push({
+            title: 'Item',
+            icon: 'th',
+        })
+    }
 </script>
 
 <template>
     <div class="menu-panel">
         <div class="application-grid">
             <ApplicationGridMenuItem
-                title="Hello world"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
-            ></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem
-                title="Hello"
-                icon="th"
+                v-for="(item, index) in data"
+                :key="index"
+                :title="item.title"
+                :icon="item.icon"
             ></ApplicationGridMenuItem>
         </div>
     </div>
