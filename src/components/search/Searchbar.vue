@@ -1,11 +1,9 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <div class="search-bar">
         <font-awesome-icon class="icon" icon="search"></font-awesome-icon>
-        <input type="text">
+        <input type="text" />
         <font-awesome-icon class="icon" icon="microphone"></font-awesome-icon>
     </div>
 </template>

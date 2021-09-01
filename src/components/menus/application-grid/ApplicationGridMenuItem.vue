@@ -1,6 +1,6 @@
 <script setup lang="ts">
     const props = defineProps<{
-        title: string,
+        title: string
         icon: string
     }>()
 </script>
@@ -30,12 +30,12 @@
 
     .application-grid-menu-item span {
         display: block;
-        
+
         overflow: hidden;
         overflow-wrap: break-word;
         white-space: nowrap;
         text-align: center;
-        
+
         width: 3rem;
         text-overflow: ellipsis;
     }

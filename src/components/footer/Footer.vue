@@ -1,6 +1,4 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <div class="footer-wrapper">
@@ -23,74 +21,74 @@
 </template>
 
 <style scoped>
-.footer-wrapper {
-    display: flex;
-    flex-direction: column;
-
-    color: rgba(0, 0, 0, 0.54);
-    background-color: rgb(242, 242, 242);
-}
-
-.country-section {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-
-    font-size: 15px;
-
-    border-bottom: 1px solid rgb(218, 220, 224);
-}
-
-.footer-button-group {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2rem;
-
-    display: inline-flex;
-    gap: 1rem;
-
-    font-size: 14px;
-}
-
-.group {
-    display: inline-flex;
-    gap: 1rem;
-}
-
-.footer-button-group a {
-    color: rgba(0, 0, 0, 0.54);
-    text-decoration: none;
-}
-
-.footer-button-group a:hover {
-    text-decoration: underline;
-}
-
-.footer-button-group a:last-child {
-    margin-right: 2rem;
-}
-
-.spacer {
-    flex-grow: 1;
-}
-
-@media screen and (max-width: 1200px) {
-    .footer-button-group {
-        justify-content: space-around;
-    }
-
-    .spacer {
-        flex-grow: 0;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .footer-button-group {
+    .footer-wrapper {
+        display: flex;
         flex-direction: column;
+
+        color: rgba(0, 0, 0, 0.54);
+        background-color: rgb(242, 242, 242);
+    }
+
+    .country-section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+
+        font-size: 15px;
+
+        border-bottom: 1px solid rgb(218, 220, 224);
+    }
+
+    .footer-button-group {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+
+        display: inline-flex;
+        gap: 1rem;
+
+        font-size: 14px;
     }
 
     .group {
-        justify-content: center;
+        display: inline-flex;
+        gap: 1rem;
     }
-}
+
+    .footer-button-group a {
+        color: rgba(0, 0, 0, 0.54);
+        text-decoration: none;
+    }
+
+    .footer-button-group a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-button-group a:last-child {
+        margin-right: 2rem;
+    }
+
+    .spacer {
+        flex-grow: 1;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .footer-button-group {
+            justify-content: space-around;
+        }
+
+        .spacer {
+            flex-grow: 0;
+        }
+    }
+
+    @media screen and (max-width: 720px) {
+        .footer-button-group {
+            flex-direction: column;
+        }
+
+        .group {
+            justify-content: center;
+        }
+    }
 </style>

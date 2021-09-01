@@ -1,9 +1,8 @@
 <script setup lang="ts">
-    import HeaderNavbar from "./components/header/navbar/HeaderNavbar.vue"
-    import Searchbar from "./components/search/Searchbar.vue";
-    import SimpleButton from "./components/buttons/SimpleButton.vue";
-    import Footer from "./components/footer/Footer.vue";
-
+    import HeaderNavbar from './components/header/navbar/HeaderNavbar.vue'
+    import Searchbar from './components/search/Searchbar.vue'
+    import SimpleButton from './components/buttons/SimpleButton.vue'
+    import Footer from './components/footer/Footer.vue'
 </script>
 
 <template>

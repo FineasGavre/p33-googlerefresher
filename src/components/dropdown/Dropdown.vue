@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import { ref } from "@vue/reactivity"
+    import { ref } from '@vue/reactivity'
 
     const isOpen = ref(false)
 
@@ -11,12 +11,10 @@
 </script>
 
 <template>
-        <div @click="toggleOpen()">
-            <slot name="trigger" :isOpen="isOpen"></slot>
-        </div>
-        <slot v-if="isOpen" name="content"></slot>
+    <div @click="toggleOpen()">
+        <slot name="trigger" :isOpen="isOpen"></slot>
+    </div>
+    <slot v-if="isOpen" name="content"></slot>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

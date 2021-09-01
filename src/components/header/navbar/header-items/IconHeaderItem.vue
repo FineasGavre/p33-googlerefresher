@@ -1,13 +1,17 @@
 <script setup lang="ts">
     const props = defineProps<{
-        href: string,
-        icon: string,
+        href: string
+        icon: string
         active?: boolean
     }>()
 </script>
 
 <template>
-    <a :href="props.href" class="header-item" :class="{ 'header-active-item': props.active }">
+    <a
+        :href="props.href"
+        class="header-item"
+        :class="{ 'header-active-item': props.active }"
+    >
         <font-awesome-icon :icon="props.icon"></font-awesome-icon>
     </a>
 </template>
@@ -30,7 +34,7 @@
     }
 
     .header-active-item {
-        background-color: rgba(60, 64, 67, 0.20);
+        background-color: rgba(60, 64, 67, 0.2);
         border-radius: 50%;
     }
 </style>

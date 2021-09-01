@@ -10,6 +10,4 @@ import App from './App.vue'
 
 library.add(faTh, faMicrophone, faSearch)
 
-createApp(App)
-    .component('font-awesome-icon', FontAwesomeIcon)    
-    .mount('#app')
+createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

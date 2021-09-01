@@ -1,27 +1,78 @@
 <script setup lang="ts">
-    import ApplicationGridMenuItem from "../application-grid/ApplicationGridMenuItem.vue";
+    import ApplicationGridMenuItem from '../application-grid/ApplicationGridMenuItem.vue'
 </script>
 
 <template>
     <div class="menu-panel">
         <div class="application-grid">
-            <ApplicationGridMenuItem title="Hello world" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
-            <ApplicationGridMenuItem title="Hello" icon="th"></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello world"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
+            <ApplicationGridMenuItem
+                title="Hello"
+                icon="th"
+            ></ApplicationGridMenuItem>
         </div>
     </div>
 </template>
@@ -30,7 +81,7 @@
     .menu-panel {
         overflow-y: scroll;
         position: absolute;
-        
+
         top: var(--navbar-size);
         right: 1rem;
 

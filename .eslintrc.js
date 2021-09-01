@@ -1,26 +1,26 @@
 module.exports = {
     env: {
-        node: true
+        node: true,
     },
     extends: [
         'eslint:recommended',
         'plugin:vue/base',
         'plugin:vue/vue3-recommended',
-        'prettier'
+        'prettier',
     ],
     parser: 'vue-eslint-parser',
     parserOptions: {
-        'parser': '@typescript-eslint/parser',
-        'ecmaVersion': 2020,
-        'sourceType': 'module'
+        parser: '@typescript-eslint/parser',
+        ecmaVersion: 2020,
+        sourceType: 'module',
     },
     rules: {
-        'vue/script-setup-uses-vars': 'error'
+        'vue/script-setup-uses-vars': 'error',
     },
     globals: {
         defineProps: 'readonly',
         defineEmits: 'readonly',
         defineExpose: 'readonly',
-        withDefaults: 'readonly'
-    }
+        withDefaults: 'readonly',
+    },
 }

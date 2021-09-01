@@ -1,6 +1,6 @@
 <script setup lang="ts">
     const props = defineProps<{
-        imageSrc: string,
+        imageSrc: string
         href: string
     }>()
 </script>
@@ -19,7 +19,6 @@
 
         height: 2.5rem;
         width: 2.5rem;
-
 
         color: rgba(0, 0, 0, 0.87);
     }
